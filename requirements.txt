@@ -1,0 +1,6 @@
+psutil==7.0.0
+pyserial==3.5
+pywin32==306
+PyYAML==6.0.2
+pyinstaller==6.8.0
+paho-mqtt==2.1.0
