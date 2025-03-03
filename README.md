@@ -1,5 +1,14 @@
 # VMS Interface
 
+## Warning
+
+This program enables the remote sending of keystrokes via the Windows API through COM Port or MQTT, either generally or directly to a specific application. 
+This poses a significant security risk if not implemented correctly. 
+The application is still under development. 
+Proceed with CAUTION!
+
+**DO NOT USE IN A PRODUCTION ENVIRONMENT!!!**
+
 
 ## Installation
 
