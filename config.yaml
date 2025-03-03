@@ -1,0 +1,52 @@
+#-----------------Basic Configuration ----------------
+
+# Serial port configuration
+COM_PORT: "COM9"
+BAUD_RATE: 9600
+BYTESIZE: 8
+PARITY: "EVEN"
+STOPBITS: 1
+XONXOFF: "False"
+RTSCTS: "False"
+DSRDTR: "False"
+
+# Select the Name of the window to be controlled
+WINDOW_NAME: "Client"
+
+# Set to INFO for normal operation, DEBUG for debugging
+LOG_LEVEL: "INFO"
+
+# Sets the time between Key Presses or Key Kombinations
+# Minimale Zeit ist abhänig von der Grafikleistung des Client PCs
+# Muss ausreichen damit die Änderungen dagestellt werden können
+# bevor neue änderungen ausgeführt werden
+# sollte 0.3 nicht unterschreiten
+# besser 0.6
+WAIT_AFTER_KEY: 0.7
+
+
+CHECK_FOR_WINDOW_ON_STARTUP: "True"
+
+#--------------- Set Application to Foreground ----------------
+
+# If set to "False" the Target Application will not be set to foreground
+SET_TO_FOREGROUND_ENABLE: "True"
+
+# Pause (in seconds) between setting Target Application to foreground every couple of minutes
+SET_TO_FOREGROUND_PAUSE: 30
+
+# Attention: If set to "True" Resource intensive, every "SET_TO_FOREGROUND_PAUSE" seconds, might cause performance issues
+# This setting will try to bring the VMS Window to the foreground every "SET_TO_FOREGROUND_PAUSE" seconds, 
+# if there is any window above it, even for invisible System Windows that might technically,
+# be in the foreground even if not visible, still does disregard truely invisible windows
+SET_TO_FOREGROUND_STRICT: "False"
+
+# Monitor Anzahl bzw. Fenster Anzahl (deprecated)
+MONITOR_COUNT: 2
+
+
+# If you encounter issues consinder setting Registry Key Computer\HKEY_CURRENT_USER\Control Panel\Desktop\ForegroundLockTimeout to 0
+# This will disable the timeout for the foreground window
+# Proceed with caution
+# Create a System Restore Point before changing the Registry
+# Create a new DWORD (32-bit) Value named ForegroundLockTimeout and set the value to 0

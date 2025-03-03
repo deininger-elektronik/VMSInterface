@@ -169,3 +169,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# PyInstaller builds
+*.exe
+
+#git backups
+*.bundle
+
+# Pylance cache
+__pylance__/
