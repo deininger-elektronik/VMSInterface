@@ -56,6 +56,17 @@ Weingarten (Baden), Germany FEB. 2025
 Parts of this code were generated using **GitHub Copilot AI** under GitHub 
 user account: **[github.com/batchdeploy](https://github.com/batchdeploy)**
 
+----------------------------------------------------------------------------
+
+**Disclaimer for keycombinations_dict.py:**
+
+The original `keycombinations_dict.py` is not part of the GPL v3 
+Licensed Project since it is HMI specific and possibly contains commands 
+that are under NDA. It needs to be newly created by the user. 
+Refer to the `keycombinations_dict_manual.md` for reference and how to.
+
+----------------------------------------------------------------------------
+
 This program is released under the GNU General Public License v3.0.
 
 You are free to use, modify, and distribute this software under the terms of  

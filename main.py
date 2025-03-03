@@ -8,13 +8,25 @@
 
 # ##  Warning
 # 
-# This program enables the remote sending of keystrokes via the Windows API through COM Port or MQTT, either generally or directly to a specific application. 
+# This program enables the remote sending of keystrokes via the Windows API, 
+# through COM Port or MQTT, either generally or directly to a specific application. 
 # This poses a significant security risk if not implemented correctly. 
 # The application is still under development. 
 # Proceed with CAUTION!
 # 
 # **DO NOT USE IN A PRODUCTION ENVIRONMENT!!!**
 
+
+# ----------------------------------------------------------------------------
+# 
+# **Disclaimer for keycombinations_dict.py:**
+# 
+# The original `keycombinations_dict.py` is not part of the GPL v3 
+# Licensed Project since it is HMI specific and possibly contains commands 
+# that are under NDA. It needs to be newly created by the user. 
+# Refer to the `keycombinations_dict_manual.md` for reference and how to.
+# 
+# ----------------------------------------------------------------------------
 
 # This project is released under the GNU General Public License v3.0.
 

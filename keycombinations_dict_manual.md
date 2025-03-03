@@ -1,5 +1,17 @@
 ### Writing a keycombinations_dict.py
 
+----------------------------------------------------------------------------
+
+**Disclaimer for keycombinations_dict.py:**
+
+The original `keycombinations_dict.py` is not part of the GPL v3 
+Licensed Project since it is HMI specific and possibly contains commands 
+that are under NDA. It needs to be newly created by the user. 
+Refer to THIS document for reference and how to.
+
+----------------------------------------------------------------------------
+
+
 The keycombinations_dict.py file is used to define key combinations and sequences that can be executed by a Python application. This file uses a dictionary structure to map command names to lists of key actions. Each key action can include pressing a key, holding a combination of keys, and waiting for a specified duration.
 
 #### Keycodes Dictionary

@@ -7,7 +7,16 @@ each governed by their respective licenses.
 
 ----------------------------------------------------------------------------
 
-This applies to the project as a whole:
+**Disclaimer for keycombinations_dict.py:**
+
+The original `keycombinations_dict.py` is not part of the GPL v3 
+Licensed Project since it is HMI specific and possibly contains commands 
+that are under NDA. It needs to be newly created by the user. 
+Refer to the `keycombinations_dict_manual.md` for reference and how to.
+
+----------------------------------------------------------------------------
+
+This applies to the project as a whole (except for keycombinations_dict.py):
 
 Weingarten (Baden), Germany FEB. 2025
 
