@@ -5,6 +5,17 @@
 # Parts of this code were generated using **GitHub Copilot AI** under GitHub 
 # user account: **[github.com/batchdeploy](https://github.com/batchdeploy)**
 
+
+# ##  Warning
+# 
+# This program enables the remote sending of keystrokes via the Windows API through COM Port or MQTT, either generally or directly to a specific application. 
+# This poses a significant security risk if not implemented correctly. 
+# The application is still under development. 
+# Proceed with CAUTION!
+# 
+# **DO NOT USE IN A PRODUCTION ENVIRONMENT!!!**
+
+
 # This project is released under the GNU General Public License v3.0.
 
 # You are free to use, modify, and distribute this software under the terms of
